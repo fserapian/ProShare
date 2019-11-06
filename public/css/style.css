@@ -1,0 +1,130 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab:800&display=swap');
+
+/* Body */
+html, body {
+  background: #f4f4f4;
+}
+
+/* Utilities */
+.text-primary {
+  color: #000;
+}
+
+.squeeze {
+  margin: 0;
+}
+
+.light {
+  color: #777;
+}
+
+.brand-logo {
+  font-family: 'Hepta Slab', serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.chip {
+  margin-left: 10px;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.reaction {
+  margin: 0 10px;
+}
+
+/* About Us */
+#about-us {
+  margin-left: 30px;
+}
+
+/* Navbar */
+#navbar {
+  margin-bottom: 30px;
+}
+
+.nav-wrapper ul li a:hover {
+  color: #fff;
+  border-bottom: 5px solid #fff;
+}
+
+#showcontent {
+  padding: 2em;
+}
+
+.nav-wrapper .sidenav li a {
+  color: #fff;
+}
+
+.nav-wrapper .sidenav li a:hover {
+  color: #a5d6a7;
+  background: #222;
+  /* border-bottom: 3px solid #a5d6a7; */
+}
+
+nav .brand-logo i.material-icons {
+  margin-right: 5px;
+  font-size: 40px;
+}
+
+
+/* Cards */
+#main-card {
+  text-align: center;
+}
+
+.card .form-footer {
+  margin: 50px 0 10px 10px;
+}
+
+.shortcut-link {
+  margin-left: 30px;
+}
+
+#post-card {
+  cursor: pointer;
+}
+
+#post-card .card-content {
+  padding-bottom: 0.2rem;
+}
+
+/* card top of posts/index */
+#top-tile{
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Footer */
+#footer-info {
+  margin-top: 40px;
+}
+
+/* Buttons */
+button.btn-delete {
+  margin-left: 10px;
+}
+
+/* Reactions */
+#tdown {
+  margin-left: 20px;
+}
+
+/* profile picture on settings*/
+img.profPic{
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.bottomtext{
+  vertical-align: bottom;
+}
+
+/* Likes and Dislikes */
+#tup, #tdown:hover {
+  cursor: pointer;
+}
