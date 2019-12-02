@@ -55,7 +55,7 @@ function react(type, postId) {
         }
     }
 
-    xhr.open('post', `http://localhost:8080/postshare/posts/react/${type}/${postId}`, true);
+    xhr.open('post', `http://localhost:8080/proshare/posts/react/${type}/${postId}`, true);
 
     xhr.send();
 }
